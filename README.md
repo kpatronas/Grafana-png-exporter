@@ -5,11 +5,13 @@ Export easily your Grafana dashboards to png images
 https://grafana.com/docs/grafana/latest/http_api/auth/
 
 # Parameters explaination
+```
 -e: export filename
 -f: from date
 -t: to date
 -a: authorization bearer
 -d: dashboard url
+```
 
 # Example: Export a dashboard
 
