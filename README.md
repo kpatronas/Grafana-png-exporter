@@ -26,7 +26,7 @@ grafana_exporter.sh -e out.png -f "2022-05-01 08:00:00" -t "2022-05-01 11:10:00"
 
 if everything gone well a png export of the dashboard will be created in out.png
 
-# Example: Export a dashboard with some tricks ;)
+# Example: Export a dashboard using some date tricks ;)
 
 Assume that you want an export of your dashboad everyday with a specific timeframe
 
