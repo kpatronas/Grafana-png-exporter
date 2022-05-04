@@ -30,6 +30,8 @@ if everything gone well a png export of the dashboard will be created in out.png
 
 Assume that you want an export of your dashboad everyday with a specific timeframe
 
+```
 grafana_exporter.sh -e out.png -f "`date +"%Y-%m-%d 08:00:00"`" -t "`date +"%Y-%m-%d 11:00:00"`" -a eyJrIjoiOE1oc0hpb3V0SHM1cDlYTmJmWTJwSDRHZGiiS254eG0iLCJuIjoia3BhdHJvbmFzIiwiaWQiOjF9 -d "http://grafana_server:3000/render/d-solo/uzieuOY7z/my-statistics?orgId=1&from=FROM_DATE&to=TO_DATE&panelId=5&width=1000&height=500&tz=Europe%2FAthens&theme=light"
+```
 
 Executing this on each day will give us graphs only for the current day between 08:00 and 11:00
